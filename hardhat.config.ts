@@ -23,7 +23,7 @@ const config: HardhatUserConfig = {
   etherscan: {
     apiKey: {
       "mirai": "mirai",
-      'bscTestnet': "9ISBA776JT1N1NIXP9WGW6WN61J9DN1U3X",
+      'bscTestnet': process.env.BSCSCAN_TEST_API_KEY ?? "",
     },
     customChains: [
       {
