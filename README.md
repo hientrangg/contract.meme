@@ -23,3 +23,5 @@ It will return the deployed address. use this address to verify in block explore
 npx hardhat verify --contract "contracts/Token.sol:ALEO"  --network bscTestnet 0xae5Efa0D8c2D22e00De1cC7Fe519A0f599751e64
 ```
 In this case, we use `0xae5Efa0D8c2D22e00De1cC7Fe519A0f599751e64` as deployed address. 
+
+Example: https://testnet.bscscan.com/address/0xE045Ca388E9191cF1bb0E7AB0d18Be59305b3a34#writeContract
