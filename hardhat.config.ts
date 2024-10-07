@@ -39,12 +39,12 @@ const config: HardhatUserConfig = {
   networks: {
     'mirai': {
       url: "https://rpc1-testnet.miraichain.io/",
-      accounts: ["9705748f979b7e3a4aa3f06dff490f93cc754d460328c62b264f497aa89e8d03"],
+      accounts: ["private key"],
     },
 
     'bscTestnet': {
       url: "https://bsc-testnet.blockpi.network/v1/rpc/public	",
-      accounts: ["9705748f979b7e3a4aa3f06dff490f93cc754d460328c62b264f497aa89e8d03"],
+      accounts: ["private key"],
     }
   },
 };
